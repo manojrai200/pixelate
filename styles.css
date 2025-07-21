@@ -1,0 +1,69 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f0f5;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 25px;
+  align-items: center;
+}
+
+.control-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+select, input[type="number"], button {
+  padding: 6px 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background-color: #388e3c;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  user-select: none;
+}
+
+td {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #ccc;
+}
+
+/* Color classes */
+td.red { background-color: red; }
+td.blue { background-color: blue; }
+td.green { background-color: green; }
+td.yellow { background-color: yellow; }
+td.purple { background-color: purple; }
+td.orange { background-color: orange; }
+td.black { background-color: black; }
+td.white { background-color: white; border: 1px solid #aaa; }
