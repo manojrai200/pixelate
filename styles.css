@@ -1,6 +1,6 @@
 body {
   font-family: 'Segoe UI', sans-serif;
-  background: #f0f0f5;
+  background: black;
   margin: 0;
   padding: 20px;
   text-align: center;
@@ -9,7 +9,7 @@ body {
 h1 {
   font-size: 2.5rem;
   margin-bottom: 20px;
-  color: #333;
+  color: white;
 }
 
 .controls {
@@ -46,23 +46,38 @@ button:hover {
   background-color: #388e3c;
 }
 
-table {
-  margin: 0 auto;
-  border-collapse: collapse;
-  user-select: none;
-}
+
 
 td {
-  width: 25px;
-  height: 25px;
-  border: 1px solid #ccc;
+  width: 50px;
+  height: 50px;
+  background-color: lightgray;
 }
 
-td.red { background-color: red; }
-td.blue { background-color: blue; }
-td.green { background-color: green; }
-td.yellow { background-color: yellow; }
-td.purple { background-color: purple; }
-td.orange { background-color: orange; }
-td.black { background-color: black; }
-td.white { background-color: white;}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue; 
+  }
+.green {
+  background-color: green; 
+}
+.yellow { 
+  background-color: yellow; 
+}
+.violet { 
+  background-color: violet; 
+}
+.indigo{
+  background-color: indigo;
+}
+.orange { 
+  background-color: orange; 
+}
+.black { 
+  background-color: black; 
+}
+.white { 
+  background-color: white;
+}
