@@ -58,7 +58,6 @@ td {
   border: 1px solid #ccc;
 }
 
-/* Color classes */
 td.red { background-color: red; }
 td.blue { background-color: blue; }
 td.green { background-color: green; }
@@ -66,4 +65,4 @@ td.yellow { background-color: yellow; }
 td.purple { background-color: purple; }
 td.orange { background-color: orange; }
 td.black { background-color: black; }
-td.white { background-color: white; border: 1px solid #aaa; }
+td.white { background-color: white;}
